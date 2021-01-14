@@ -1,0 +1,32 @@
+.btn {
+  background-color: #38a3a5;
+  color: white;
+}
+.form-control {
+  display: block;
+  background-color: transparent;
+  background: transparent;
+  color: #38a3a5;
+  border-image-source: linear-gradient(to left, #38a3a5, #000);
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+}
+/* input {
+  border: #38a3a5;
+  border: 1cm;
+}
+
+/* .module-border-wrap {
+  max-width: 250px;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right, red, purple);
+  padding: 3px;
+}
+
+.module {
+  background: #222;
+  color: white;
+  padding: 2rem;
+} */

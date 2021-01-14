@@ -77,7 +77,7 @@ li {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 1rem;
-  color: rgb(0, 0, 0);
+  color: white;
 }
 
 .animais h2::before {
@@ -86,7 +86,7 @@ li {
   width: 40px;
   height: 10px;
   margin-right: 10px;
-  background: black;
+  background: #38a3a5;
 }
 
 .animais p {
@@ -110,16 +110,17 @@ li {
 }
 
 .animais-lista::-webkit-scrollbar-thumb {
-  background: black;
-  border-left: 4px solid #faf6ed;
-  border-right: 4px solid #faf6ed;
+  background: #38a3a5;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
 }
 
 .animais-lista::-webkit-scrollbar-track {
-  background: #faf6ed;
+  background: transparent;
 }
 
 .animais-descricao {
+  color: white;
   grid-column: 3;
 }
 

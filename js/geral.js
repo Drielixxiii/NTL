@@ -1,3 +1,4 @@
+document.documentElement.className += " js";
 var transparent = true;
 var big_image;
 
