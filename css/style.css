@@ -13,7 +13,11 @@ footer {
   width: 45px;
   height: 20px;
 }
-
+.linha {
+  margin-bottom: 25px;
+  border-top: 3px solid #38a3a5;
+  width: 60px;
+}
 nav {
   color: black;
 }
@@ -156,7 +160,7 @@ section .oquefazemos {
 
 .apoio {
   font-family: "Bebas Neue";
-  color: #38a3a5;
+  /* color: #38a3a5; */
   text-align: center;
   height: 430px;
 }
