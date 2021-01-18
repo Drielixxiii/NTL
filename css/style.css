@@ -263,6 +263,12 @@ a:link {
     }
   }
 }
+@media (max-width: 1000px) {
+  .imagemservico {
+    width: 340px;
+    height: 300px;
+  }
+}
 
 .marketing .col-lg-4 p {
   margin-right: 0.75rem;
@@ -288,21 +294,14 @@ a:link {
 }
 
 .imagemservico {
-  width: 500px;
-  height: 300px;
+  width: 480px;
+  height: 370px;
   background-color: transparent;
   border-radius: 20px;
 }
 
 .lado {
   text-align: right;
-}
-
-@media (max-width: 720px) {
-  .imagemservico {
-    width: 500px;
-    height: 390px;
-  }
 }
 
 ::-webkit-scrollbar {
