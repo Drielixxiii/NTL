@@ -31,10 +31,10 @@ p {
   font-size: 18px;
   color: #a8a8b3;
 }
-.testefooter {
+/* .testefooter {
   background-color: #121214;
   color: rgb(221, 221, 221);
-}
+} */
 
 .imgfooter {
   width: 45px;
@@ -183,11 +183,11 @@ a:link {
   font-size: 17px;
 }
 
-.footer,
+/* .footer,
 p {
   font-size: 15px;
   background: transparent;
-}
+} */
 
 input,
 textarea {

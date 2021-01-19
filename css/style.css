@@ -1,11 +1,10 @@
 body {
   overflow-x: hidden;
   color: #38a3a5;
-  background-image: linear-gradient(to right, black, rgb(39, 39, 38));
+  background-image: linear-gradient(to right, black, #272726);
 }
 
 footer {
-  background-image: linear-gradient(to right, black, rgb(39, 39, 38));
   color: white;
 }
 
@@ -137,11 +136,6 @@ section .oquefazemos {
 .menu {
   font-family: "Raleway";
   font-size: 40px;
-}
-
-.footer {
-  background-color: black;
-  color: white;
 }
 
 .bg_video {
