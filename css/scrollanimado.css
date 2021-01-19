@@ -73,7 +73,7 @@ li {
 
 .animais h2 {
   font-family: "IBM Plex Mono", monospace;
-  font-size: 1rem;
+  font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 1rem;
@@ -91,6 +91,7 @@ li {
 
 .animais p {
   font-family: Helvetica, Arial;
+  font-size: 15px;
   line-height: 1.2;
   margin-bottom: 1rem;
 }

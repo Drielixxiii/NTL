@@ -34,76 +34,6 @@ nav {
   color: white;
 }
 
-.social-media {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  border: 3px solid;
-  margin: 0 25px;
-  position: relative;
-  transition: all 0.3s;
-  overflow: hidden;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0, 15);
-}
-.social-media i {
-  font-size: 25px;
-  transition: all 0.3s;
-  color: #fff;
-}
-
-.social-media span {
-  position: absolute;
-  transform: translateY(-100px);
-  text-transform: uppercase;
-  font-family: "Raleway";
-  font-weight: bolder;
-  transition: all 0.3s;
-}
-
-.social-media:nth-child(1) {
-  border-color: #585858;
-  background-color: #585858;
-}
-
-.social-media:nth-child(2) {
-  border-color: #585858;
-  background-color: #585858;
-}
-
-.social-media:nth-child(3) {
-  border-color: #585858;
-  background-color: #585858;
-}
-
-.social-media:hover {
-  border-radius: 5px;
-  padding: 16px 90px;
-  background-color: transparent;
-}
-
-.social-media:hover i {
-  transform: translateY(100px);
-}
-
-.social-media:hover span {
-  transform: translateY(0);
-}
-
-.social-media:nth-child(1):hover span {
-  color: #38a3a5;
-}
-
-.social-media:nth-child(2):hover span {
-  color: #38a3a5;
-}
-
-.social-media:nth-child(3):hover span {
-  color: #38a3a5;
-}
-
 .logoBranca {
   width: 200px;
   height: 90px;
@@ -141,7 +71,7 @@ section .oquefazemos {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  padding: 100px;
+  padding: 200px;
   background-image: fixed;
 }
 
@@ -153,6 +83,15 @@ section .oquefazemos {
   text-align: center;
   grid-column: 1 / 4;
 }
+.titulo h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 4rem;
+  line-height: 1;
+  /* margin-bottom: 1rem; */
+  text-align: center;
+  grid-column: 1 / 4;
+}
+
 .subtitulo {
   font-family: "raleway";
   padding-bottom: 1cm;
@@ -160,9 +99,9 @@ section .oquefazemos {
 
 .apoio {
   font-family: "Bebas Neue";
-  /* color: #38a3a5; */
+  color: #38a3a5;
   text-align: center;
-  height: 430px;
+  height: 300px;
 }
 
 .marketing .col-lg-4 {
