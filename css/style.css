@@ -168,6 +168,7 @@ a:link {
     width: 43px;
   }
 }
+
 @media (min-width: 1000px) {
   .line {
     border-right: 2px solid rgba(255, 255, 255, 0.75);
@@ -177,15 +178,27 @@ a:link {
   }
   .typing-animation {
     animation: blinkCursor 500ms steps(40) infinite normal,
-      typing 3s steps(40) 1s normal both;
+      typing 10s steps(40) 1s normal both;
   }
 
   @keyframes typing {
-    from {
-      width: 0;
+    0% {
+      width: 0px;
     }
-    to {
-      width: 9em;
+    10% {
+      width: 0px;
+    }
+    25% {
+      width: 700px;
+    }
+    75% {
+      width: 700px;
+    }
+    90% {
+      width: 0px;
+    }
+    100% {
+      width: 0px;
     }
   }
 
@@ -198,12 +211,49 @@ a:link {
     }
   }
 }
-/* @media (max-width: 1000px) {
-  .imagemservico {
-    width: 540px;
-    height: 300px;
+
+@media (min-width: 1000px) {
+  .line2 {
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
   }
-} */
+  .typing-animation2 {
+    animation: blinkCursor 500ms steps(40) infinite normal,
+      typing 10s steps(40) 1s normal both;
+  }
+
+  @keyframes typing {
+    0% {
+      width: 0px;
+    }
+    10% {
+      width: 0px;
+    }
+    25% {
+      width: 700px;
+    }
+    75% {
+      width: 700px;
+    }
+    90% {
+      width: 0px;
+    }
+    100% {
+      width: 0px;
+    }
+  }
+
+  @keyframes blinkCursor {
+    from {
+      border-right-color: #818181bf;
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+}
 .imagemservico {
   width: 480px;
   height: 370px;

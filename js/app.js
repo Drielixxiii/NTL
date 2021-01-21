@@ -332,3 +332,22 @@ const mascaraTelefone = (valor) => {
   valor = valor.replace(/(\d)(\d{4})$/, "$1-$2");
   tel.value = valor; // Insere o(s) valor(es) no campo
 };
+
+var maquinadeescrever = document.getElementById("maquinadeescrever");
+
+var typewriter = new Typewriter(maquinadeescrever, {
+  loop: true,
+});
+
+typewriter
+  .start()
+  .typeString("Bem Vindo(a) à NTL.")
+  .pauseFor(2500)
+  .deleteAll()
+  .typeString("Isto é um teste,")
+  .pauseFor(2500)
+  .deleteChars(16)
+  .typeString("isso é outro teste.")
+  .deleteAll()
+  .typeString("Bem Vindo(a).")
+  .pauseFor(5000*60);
