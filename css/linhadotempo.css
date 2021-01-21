@@ -199,6 +199,7 @@ a {
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
+  background: url(../img/cd-arrow.svg) no-repeat 0 0;
 }
 .cd-timeline-navigation a.prev {
   left: 0;
@@ -287,11 +288,15 @@ a {
   margin: 0 auto;
 }
 .cd-horizontal-timeline .events-content h2 {
-  font-weight: bold;
+  /* font-weight: bold;
   font-size: 2.6rem;
-  font-family: "Bebas Neue";
+  font-family: "Raleway";
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.2; */
+  font-weight: bold;
+  color: #e1e1e6;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 700;
 }
 .cd-horizontal-timeline .events-content em {
   display: block;
@@ -303,7 +308,7 @@ a {
 }
 .cd-horizontal-timeline .events-content p {
   font-size: 1.4rem;
-  color: #959595;
+  color: #c0bfbf;
 }
 .cd-horizontal-timeline .events-content em,
 .cd-horizontal-timeline .events-content p {
@@ -311,10 +316,11 @@ a {
 }
 @media only screen and (min-width: 768px) {
   .cd-horizontal-timeline .events-content h2 {
-    font-size: 7rem;
+    font-size: 30px;
   }
   .cd-horizontal-timeline .events-content em {
     font-size: 2rem;
+    color: #959595;
   }
   .cd-horizontal-timeline .events-content p {
     font-size: 1.8rem;

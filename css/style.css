@@ -7,44 +7,19 @@ footer {
   color: white;
 }
 
-.linha {
-  margin-bottom: 25px;
-  border-top: 3px solid #38a3a5;
-  width: 60px;
-}
 nav {
   color: black;
 }
-.contato h1 {
-  /* text-align: center; */
-  color: #38a3a5;
-  font-family: "Bebas Neue";
-}
-.contato a {
-  align-items: center;
+
+h1, h2{
+  font-weight: 700;
+  color: #e1e1e6;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 40px;
 }
 
-.branco {
-  color: white;
-}
-
-.logoBranca {
-  width: 200px;
-  height: 90px;
-}
-.neon {
-  position: absolute;
-  top: 50%;
-  transition: 0, 5s;
-  outline: 0;
-  border-radius: 5px;
-  /* left: 50%; */
-  /* transform: translate(-50%, -50%); */
-}
-
-.neon:hover {
-  -webkit-filter: drop-shadow(0 0 5px white);
-  filter: drop-shadow(0 0 5px white);
+p{
+  color: #a8a8b3;
 }
 
 section video {
@@ -69,24 +44,62 @@ section .oquefazemos {
   background-image: fixed;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+.linha {
+  margin-bottom: 25px;
+  border-top: 3px solid #38a3a5;
+  width: 60px;
+}
+
+
 .titulo {
-  font-family: "Bebas Neue", cursive;
   color: #e1e1e6;
-  font-size: 4rem;
+  font-size: 40px;
   line-height: 1;
-  /* margin-bottom: 1rem; */
+  margin-bottom: 1rem;
   text-align: center;
   grid-column: 1 / 4;
 }
-.titulo h1 {
-  font-family: "Bebas Neue", cursive;
-  color: #e1e1e6;
-  font-size: 4rem;
-  line-height: 1;
-  /* margin-bottom: 1rem; */
-  text-align: center;
-  grid-column: 1 / 4;
+
+
+
+
+.contato h1 {
+  /* text-align: center; */
+  color: #38a3a5;
+  font-family: "Raleway";
 }
+.contato a {
+  align-items: center;
+}
+
+.branco {
+  color: white;
+}
+
+.logoBranca {
+  width: 200px;
+  height: 90px;
+}
+.neon {
+  position: absolute;
+  top: 50%;
+  transition: 0, 5s;
+  outline: 0;
+  border-radius: 5px;
+}
+
+.neon:hover {
+  -webkit-filter: drop-shadow(0 0 5px white);
+  filter: drop-shadow(0 0 5px white);
+}
+
+
+
+
 
 .subtitulo {
   font-family: "raleway";
@@ -95,11 +108,12 @@ section .oquefazemos {
 }
 
 .apoio {
-  font-family: "Bebas Neue";
+  font-family: "Raleway";
   color: #e1e1e6;
   text-align: center;
   height: 300px;
 }
+
 
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
@@ -140,15 +154,12 @@ section .oquefazemos {
   position: absolute;
 }
 
-a:link {
-  text-decoration: none;
-}
 
 .slogan {
   color: #e1e1e6;
   font-size: 80px;
 }
-/*inicio servicos*/
+
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
@@ -156,16 +167,19 @@ a:link {
 
 #proximasessao {
   animation: seta 800ms steps(40) infinite normal;
+  animation-delay: 31s;
+  opacity: 0;
+  
 }
 
 @keyframes seta {
   from {
-    height: 40px;
     width: 40px;
+    opacity: 0;
   }
   to {
-    height: 43px;
     width: 43px;
+    opacity: 1;
   }
 }
 
@@ -269,6 +283,9 @@ a:link {
 .barradivisao-divider {
   margin: 5rem 0;
 }
+.lado {
+  text-align: right;
+}
 
 @media (min-width: 62em) {
   .featurette-heading {
@@ -282,10 +299,6 @@ a:link {
     text-align: center;
     align-items: center;
   }
-}
-
-.lado {
-  text-align: right;
 }
 
 ::-webkit-scrollbar {
