@@ -3,8 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
 
 body {
-  background-image: linear-gradient(to right, black, rgb(34, 34, 37));
   overflow-x: hidden;
+  background: linear-gradient(to right, black, #272726);
 }
 
 h1,
@@ -18,179 +18,17 @@ label {
   color: #e1e1e6;
   margin-bottom: 5px;
 }
-#proximasessao {
-  animation: seta 800ms steps(40) infinite normal;
-}
-
-.linha {
-  margin-bottom: 25px;
-  border-top: 3px solid #00fbff;
-  width: 60px;
-}
-p {
-  font-size: 18px;
-  color: #a8a8b3;
-}
-/* .testefooter {
-  background-color: #121214;
-  color: rgb(221, 221, 221);
-} */
-
-.imgfooter {
-  width: 45px;
-  height: 20px;
-}
-
-.logoBranca {
-  width: 200px;
-  height: 90px;
-}
-
-.marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-
-.marketing .col-lg-4 p {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
-}
-
-.bg_video {
-  position: absolute;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-.slogan {
-  font-family: "Merriweather", serif;
-  color: white;
-  font-size: 80px;
-}
-/*inicio servicos*/
-@media (min-width: 1000px) {
-  .marketing {
-    margin-top: 150px;
-    margin-bottom: 150px;
-  }
-}
-
-@keyframes seta {
-  from {
-    height: 40px;
-    width: 40px;
-  }
-  to {
-    height: 43px;
-    width: 43px;
-  }
-}
-@media (min-width: 1000px) {
-  .line {
-    border-right: 2px solid rgba(255, 255, 255, 0.75);
-    color: white;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-  .typing-animation {
-    animation: blinkCursor 500ms steps(40) infinite normal,
-      typing 2.5s steps(40) 1s normal both;
-  }
-
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-    to {
-      width: 10em;
-    }
-  }
-
-  @keyframes blinkCursor {
-    from {
-      border-right-color: rgba(129, 129, 129, 0.75);
-    }
-    to {
-      border-right-color: transparent;
-    }
-  }
-}
-
-.marketing .col-lg-4 p {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
-}
-
-.barradivisao-divider {
-  margin: 5rem 0;
-}
-
-@media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
-  .featurette-heading-lado {
-    margin-top: 7rem;
-    text-align: right;
-  }
-}
-@media (min-width: 1000px) {
-  .servico1 {
-    margin-bottom: 150px;
-  }
-}
-
-.imagemservico {
-  width: 450px;
-  height: 400px;
-  background-color: transparent;
-  border-radius: 10px;
-}
-
-@media (max-width: 1000px) {
-  .imagemservico {
-    width: 340px;
-    height: 300px;
-  }
-}
-
-/*contatos*/
-.titulo {
-  font-size: 40px;
-  line-height: 1;
-  /* margin-bottom: 1rem; */
-  text-align: center;
-  grid-column: 1 / 4;
-}
-.btn {
-  background-color: #38a3a5;
-  color: white;
-  font-size: 17px;
-}
 .form-control {
   display: block;
   background-color: transparent;
   background: transparent;
   color: #38a3a5;
-  /* border-image-source: linear-gradient(to left, #38a3a5, #000); */
   border: 10px solid;
   border-image-slice: 1;
   border-width: 2px;
-}
-.form-control {
   font-size: 17px;
 }
 
-/* .footer,
-p {
-  font-size: 15px;
-  background: transparent;
-} */
-
-input,
-textarea {
-  color: #38a3a5 !important;
-  background-color: transparent !important;
+.footer {
+  color: white;
 }

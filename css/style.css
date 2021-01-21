@@ -1,6 +1,5 @@
 body {
   overflow-x: hidden;
-  color: #38a3a5;
   background-image: linear-gradient(to right, black, #272726);
 }
 
@@ -8,10 +7,6 @@ footer {
   color: white;
 }
 
-.imgfooter {
-  width: 45px;
-  height: 20px;
-}
 .linha {
   margin-bottom: 25px;
   border-top: 3px solid #38a3a5;
@@ -76,6 +71,7 @@ section .oquefazemos {
 
 .titulo {
   font-family: "Bebas Neue", cursive;
+  color: #e1e1e6;
   font-size: 4rem;
   line-height: 1;
   /* margin-bottom: 1rem; */
@@ -84,6 +80,7 @@ section .oquefazemos {
 }
 .titulo h1 {
   font-family: "Bebas Neue", cursive;
+  color: #e1e1e6;
   font-size: 4rem;
   line-height: 1;
   /* margin-bottom: 1rem; */
@@ -93,12 +90,13 @@ section .oquefazemos {
 
 .subtitulo {
   font-family: "raleway";
+  color: #e1e1e6;
   padding-bottom: 1cm;
 }
 
 .apoio {
   font-family: "Bebas Neue";
-  color: #38a3a5;
+  color: #e1e1e6;
   text-align: center;
   height: 300px;
 }
@@ -147,7 +145,7 @@ a:link {
 }
 
 .slogan {
-  color: white;
+  color: #e1e1e6;
   font-size: 80px;
 }
 /*inicio servicos*/
@@ -193,18 +191,24 @@ a:link {
 
   @keyframes blinkCursor {
     from {
-      border-right-color: rgba(129, 129, 129, 0.75);
+      border-right-color: #818181bf;
     }
     to {
       border-right-color: transparent;
     }
   }
 }
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
   .imagemservico {
-    width: 340px;
+    width: 540px;
     height: 300px;
   }
+} */
+.imagemservico {
+  width: 480px;
+  height: 370px;
+  background-color: transparent;
+  border-radius: 30px;
 }
 
 .marketing .col-lg-4 p {
@@ -228,13 +232,6 @@ a:link {
     text-align: center;
     align-items: center;
   }
-}
-
-.imagemservico {
-  width: 480px;
-  height: 370px;
-  background-color: transparent;
-  border-radius: 20px;
 }
 
 .lado {

@@ -6844,7 +6844,7 @@
             console.log(t);
           }
         })();
-      })("./animaisapi.json", ".numeros-grid"),
+      })(),
       (function (t, n) {
         fetch(t)
           .then((t) => t.json())
