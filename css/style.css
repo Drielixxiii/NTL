@@ -243,10 +243,12 @@ a:link {
     margin-top: 3cm;
   }
   .imagemservico {
-  width: 350px;
+  /* width: 350px;
   height: 270px;
   background-color: transparent;
-  border-radius: 30px;
+  border-radius: 30px; */
+    display: block;
+  max-width: 100%;
 }
 }
 
