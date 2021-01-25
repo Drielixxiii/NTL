@@ -95,6 +95,12 @@ a:link {
   filter: drop-shadow(0 0 5px white);
 }
 
+.slogan {
+  font-family: 'Raleway', serif;
+  color: white;
+  font-size: 80px;
+}
+
 .subtitulo {
   font-family: "raleway";
   color: #e1e1e6;
