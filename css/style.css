@@ -11,14 +11,14 @@ nav {
   color: black;
 }
 
-h1, h2{
+h1, h2 {
   font-weight: 700;
   color: #e1e1e6;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 40px;
 }
 
-p{
+p {
   color: #a8a8b3;
 }
 
@@ -54,7 +54,6 @@ a:link {
   width: 60px;
 }
 
-
 .titulo {
   color: #e1e1e6;
   font-size: 40px;
@@ -69,6 +68,7 @@ a:link {
   color: #38a3a5;
   font-family: "Raleway";
 }
+
 .contato a {
   align-items: center;
 }
@@ -81,6 +81,7 @@ a:link {
   width: 200px;
   height: 90px;
 }
+
 .neon {
   position: absolute;
   top: 50%;
@@ -93,6 +94,7 @@ a:link {
   -webkit-filter: drop-shadow(0 0 5px white);
   filter: drop-shadow(0 0 5px white);
 }
+
 .subtitulo {
   font-family: "raleway";
   color: #e1e1e6;
@@ -106,11 +108,11 @@ a:link {
   height: 300px;
 }
 
-
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
 }
+
 .marketing h2 {
   font-weight: 400;
 }
@@ -146,12 +148,6 @@ a:link {
   position: absolute;
 }
 
-
-.slogan {
-  color: #e1e1e6;
-  font-size: 80px;
-}
-
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
@@ -161,7 +157,6 @@ a:link {
   animation: seta 800ms steps(40) infinite normal;
   animation-delay: 31s;
   opacity: 0;
-  
 }
 
 @keyframes seta {
@@ -183,10 +178,8 @@ a:link {
     overflow: hidden;
   }
   .typing-animation {
-    animation: blinkCursor 500ms steps(40) infinite normal,
-      typing 10s steps(40) 1s normal both;
+    animation: blinkCursor 500ms steps(40) infinite normal, typing 10s steps(40) 1s normal both;
   }
-
   @keyframes typing {
     0% {
       width: 0px;
@@ -207,7 +200,6 @@ a:link {
       width: 0px;
     }
   }
-
   @keyframes blinkCursor {
     from {
       border-right-color: #818181bf;
@@ -217,7 +209,6 @@ a:link {
     }
   }
 }
-
 
 .imagemservico {
   width: 480px;
@@ -234,22 +225,19 @@ a:link {
 .barradivisao-divider {
   margin: 5rem 0;
 }
+
 .lado {
   text-align: right;
 }
 
-@media(max-width:62em){
-  .titulo{
+@media(max-width:62em) {
+  .titulo {
     margin-top: 3cm;
   }
   .imagemservico {
-  /* width: 350px;
-  height: 270px;
-  background-color: transparent;
-  border-radius: 30px; */
     display: block;
-  max-width: 100%;
-}
+    max-width: 100%;
+  }
 }
 
 @media (min-width: 62em) {
