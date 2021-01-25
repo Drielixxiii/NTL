@@ -356,3 +356,9 @@ typewriter
   .pauseFor(1000)
   .typeString("Continue o tour com a seta")
   .pauseFor(10000 * 60);
+
+$(window).on('load', function () {
+    $('#preloader .inner').fadeOut();
+    $('#preloader').delay(350).fadeOut('slow'); 
+    $('body').delay(350).css({'overflow': 'visible'});
+})
