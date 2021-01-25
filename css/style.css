@@ -64,9 +64,6 @@ a:link {
   grid-column: 1 / 4;
 }
 
-
-
-
 .contato h1 {
   /* text-align: center; */
   color: #38a3a5;
@@ -96,11 +93,6 @@ a:link {
   -webkit-filter: drop-shadow(0 0 5px white);
   filter: drop-shadow(0 0 5px white);
 }
-
-
-
-
-
 .subtitulo {
   font-family: "raleway";
   color: #e1e1e6;
@@ -226,48 +218,7 @@ a:link {
   }
 }
 
-@media (min-width: 1000px) {
-  .line2 {
-    border-right: 2px solid rgba(255, 255, 255, 0.75);
-    color: white;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-  .typing-animation2 {
-    animation: blinkCursor 500ms steps(40) infinite normal,
-      typing 10s steps(40) 1s normal both;
-  }
 
-  @keyframes typing {
-    0% {
-      width: 0px;
-    }
-    10% {
-      width: 0px;
-    }
-    25% {
-      width: 700px;
-    }
-    75% {
-      width: 700px;
-    }
-    90% {
-      width: 0px;
-    }
-    100% {
-      width: 0px;
-    }
-  }
-
-  @keyframes blinkCursor {
-    from {
-      border-right-color: #818181bf;
-    }
-    to {
-      border-right-color: transparent;
-    }
-  }
-}
 .imagemservico {
   width: 480px;
   height: 370px;
@@ -285,6 +236,18 @@ a:link {
 }
 .lado {
   text-align: right;
+}
+
+@media(max-width:62em){
+  .titulo{
+    margin-top: 3cm;
+  }
+  .imagemservico {
+  width: 305px;
+  height: 270px;
+  background-color: transparent;
+  border-radius: 30px;
+}
 }
 
 @media (min-width: 62em) {
