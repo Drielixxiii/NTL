@@ -355,5 +355,5 @@ typewriter
   .deleteChars(19)
   .pauseFor(1000)
   .typeString("Continue o tour com a seta")
-  .pauseFor(10000 * 60);
+  .pauseFor(5000 * 60);
 

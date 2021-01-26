@@ -275,3 +275,40 @@ a:link {
 ::-webkit-scrollbar-thumb:hover {
   background: #38a3a5;
 }
+
+.carregar {
+  margin-top: 4cm;
+  margin-left: 13cm;
+}
+
+/* .mouse {
+  width: 100px;
+  height: 150px;
+  border: 2px solid white;
+  border-radius: 50px;
+  position: relative;
+}
+
+.mouse::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  animation: scroll ls infinite;
+}
+
+@keyframes scroll {
+  from {
+    opacity: 1;
+    top: 30px;
+  }
+  to {
+    opacity: 0;
+    top: 100px;
+  }
+} */
