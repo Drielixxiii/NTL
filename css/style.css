@@ -161,7 +161,7 @@ a:link {
 
 #proximasessao {
   animation: seta 800ms steps(40) infinite normal;
-  animation-delay: 31s;
+  /* animation-delay: 31s; */
   opacity: 0;
 }
 
@@ -277,8 +277,24 @@ a:link {
 }
 
 .carregar {
-  margin-top: 4cm;
-  margin-left: 13cm;
+  margin: auto;
+  height: 100%;
+  display: block;
+  width: 50%;
+  padding: 200px;
+  /* margin-top: 5cm;
+  margin-left: 600px;
+  margin-right: 10cm; */
+}
+
+.progress {
+  height: 300px;
+  background-color: transparent;
+}
+
+.progress>svg {
+  height: 100%;
+  display: block;
 }
 
 /* .mouse {
