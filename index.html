@@ -18,11 +18,10 @@
 </head>
 
 <body class="index-page sidebar-collapse">
-  <div id="loading" class="carregar">
+  <div class="carregar" id="loading">
     <div class="progress" id="progress"></div>
-    <!-- <img src="https://media.giphy.com/media/cnzP4cmBsiOrccg20V/giphy.gif" style="width:350px;height:350px;" /> -->
   </div>
-  <div id="conteudo" style="display: none;color: white;">
+  <div id="conteudo" style="display: none;">
     <nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="300">
       <div class="container">
         <div class="navbar-translate">
@@ -74,12 +73,12 @@
             </div>
           </div>
         </div>
+        <p class="category-absolute">
+          <a href="#oquefazemos" class="hide mb-5" id="proximasessao">
+            <img src="img/seta-para-baixo.png" id="proximasessao" style="height: 40px" />
+          </a>
+        </p>
       </div>
-      <p class="category-absolute">
-        <a href="#oquefazemos" class="hide mb-5" id="proximasessao">
-          <img src="img/seta-para-baixo.png" id="proximasessao" style="height: 40px" />
-        </a>
-      </p>
     </section>
 
     <section class="oquefazemos" id="oquefazemos">
@@ -88,7 +87,6 @@
           <div class="col-md-7 b-3">
             <h2 class="featurette-heading">
               Conexão é a chave para as <br />maiores oportunidades.
-              <!-- <hr class="linha" /> -->
             </h2>
             <p>
               Donec ullamcorper nulla non metus auctor fringilla.
@@ -106,7 +104,6 @@
             <h2 class="featurette-heading-lado">
               Conquiste novas<br />
               habilidades e seja reconhecido.
-              <!-- <hr class="linha" /> -->
             </h2>
             <p class="lado ">
               Donec ullamcorper nulla non metus auctor fringilla.
@@ -286,13 +283,13 @@
         <div class="pt-5 container marketing">
           <div class="row">
             <div class="col-lg-4" data-anime="top">
-              <i class="fas fa-band-aid"><img src="img/hp.png" style="filter: grayscale(100%)" /></i>
+              <i class="fas fa-band-aid marcasimagens"><img src="img/hp.png" /></i>
             </div>
             <div class="col-lg-4" data-anime="top">
-              <i class="fas fa-band-aid"><img src="img/microsoft.png" style="filter: grayscale(100%)" /></i>
+              <i class="fas fa-band-aid marcasimagens"><img src="img/microsoft.png" /></i>
             </div>
             <div class="col-lg-4" data-anime="top">
-              <i class="fas fa-band-aid"><img src="img/hp.png" style="filter: grayscale(100%)" /></i>
+              <i class="fas fa-band-aid marcasimagens"><img src="img/hp.png" /></i>
             </div>
           </div>
         </div>
@@ -491,7 +488,8 @@
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group mt-3">
-                <input class="form-control" id="email" type="email" placeholder="Seu email *" required="required" />
+                <input class="form-control" id="email"  type="email"
+                  placeholder="Seu email *" required="required" />
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group mt-3">

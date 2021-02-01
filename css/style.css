@@ -1,5 +1,4 @@
 body {
-  overflow-x: hidden;
   background-image: linear-gradient(to right, black, #272726);
 }
 
@@ -114,6 +113,22 @@ a:link {
   height: 300px;
 }
 
+.marcasimagens img {
+  filter: grayscale(100%);
+  -webkit-transition: 0.5s ease-in;
+  -moz-transition: 0.5s ease-in;
+  -o-transition: 0.5s ease-in;
+  transition: 0.5s ease-in;
+}
+
+.marcasimagens img:hover {
+  filter: grayscale(0%);
+  -webkit-transition: 0.5s ease-in;
+  -moz-transition: 0.5s ease-in;
+  -o-transition: 0.5s ease-in;
+  transition: 0.5s ease-in;
+}
+
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
@@ -161,7 +176,7 @@ a:link {
 
 #proximasessao {
   animation: seta 800ms steps(40) infinite normal;
-  /* animation-delay: 31s; */
+  animation-delay: 31s;
   opacity: 0;
 }
 
@@ -282,9 +297,7 @@ a:link {
   display: block;
   width: 50%;
   padding: 200px;
-  /* margin-top: 5cm;
-  margin-left: 600px;
-  margin-right: 10cm; */
+  overflow-Y: hidden;
 }
 
 .progress {
@@ -296,35 +309,3 @@ a:link {
   height: 100%;
   display: block;
 }
-
-/* .mouse {
-  width: 100px;
-  height: 150px;
-  border: 2px solid white;
-  border-radius: 50px;
-  position: relative;
-}
-
-.mouse::before {
-  position: absolute;
-  content: "";
-  width: 20px;
-  height: 20px;
-  background-color: white;
-  top: 30px;
-  left: 50%;
-  transform: translateX(-50%);
-  border-radius: 50%;
-  animation: scroll ls infinite;
-}
-
-@keyframes scroll {
-  from {
-    opacity: 1;
-    top: 30px;
-  }
-  to {
-    opacity: 0;
-    top: 100px;
-  }
-} */
