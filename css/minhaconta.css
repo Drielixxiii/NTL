@@ -14,13 +14,26 @@ label {
     color: white;
 }
 
+.botaoponto {
+    color: white;
+    font-weight: bold;
+    background: #38a3a5;
+    height: 170px;
+    border-radius: 15px;
+}
+
+.botaoponto:hover {
+    background-color: #308081;
+    color: white;
+}
+
 .form-group {
     color: white;
     opacity: 100%;
     font-weight: bold;
 }
 
-.btn, .navbar .navbar-nav>a.btn {
+.navbar .navbar-nav>a {
     border-width: 2px;
     font-weight: 600;
     font-size: 0.8571em;
@@ -36,7 +49,7 @@ label {
     transition: all 150ms linear;
 }
 
-.btn:hover, .btn:focus, .btn:active, .btn.active, .btn:active:focus, .btn:active:hover, .btn.active:focus, .btn.active:hover, .show>.btn.dropdown-toggle, .show>.btn.dropdown-toggle:focus, .show>.btn.dropdown-toggle:hover, .navbar .navbar-nav>a.btn:hover, .navbar .navbar-nav>a.btn:focus, .navbar .navbar-nav>a.btn:active, .navbar .navbar-nav>a.btn.active, .navbar .navbar-nav>a.btn:active:focus, .navbar .navbar-nav>a.btn:active:hover, .navbar .navbar-nav>a.btn.active:focus, .navbar .navbar-nav>a.btn.active:hover, .show>.navbar .navbar-nav>a.btn.dropdown-toggle, .show>.navbar .navbar-nav>a.btn.dropdown-toggle:focus, .show>.navbar .navbar-nav>a.btn.dropdown-toggle:hover {
+/* .btn:hover, .btn:focus, .btn:active, .btn.active, .btn:active:focus, .btn:active:hover, .btn.active:focus, .btn.active:hover, .show>.btn.dropdown-toggle, .show>.btn.dropdown-toggle:focus, .show>.btn.dropdown-toggle:hover, .navbar .navbar-nav>a.btn:hover, .navbar .navbar-nav>a.btn:focus, .navbar .navbar-nav>a.btn:active, .navbar .navbar-nav>a.btn.active, .navbar .navbar-nav>a.btn:active:focus, .navbar .navbar-nav>a.btn:active:hover, .navbar .navbar-nav>a.btn.active:focus, .navbar .navbar-nav>a.btn.active:hover, .show>.navbar .navbar-nav>a.btn.dropdown-toggle, .show>.navbar .navbar-nav>a.btn.dropdown-toggle:focus, .show>.navbar .navbar-nav>a.btn.dropdown-toggle:hover {
     background-color: white !important;
     color: #FFFFFF !important;
     box-shadow: none !important;
@@ -151,7 +164,7 @@ label {
 
 .btn-round.btn-simple {
     padding: 10px 22px;
-}
+} */
 
 .no-caret.dropdown-toggle::after {
     display: none;
@@ -397,62 +410,12 @@ button, input, optgroup, select, textarea {
     font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 400;
-}
-
 a {
     color: #51cbce;
 }
 
 a:hover, a:focus {
     color: #51cbce;
-}
-
-h1, .h1 {
-    font-size: 3.5em;
-    line-height: 1.15;
-    margin-bottom: 30px;
-}
-
-h1 small, .h1 small {
-    font-weight: 700;
-    text-transform: uppercase;
-    opacity: .8;
-}
-
-h2, .h2 {
-    font-size: 2.5em;
-    margin-bottom: 30px;
-}
-
-h3, .h3 {
-    font-size: 2em;
-    margin-bottom: 30px;
-    line-height: 1.4em;
-}
-
-h4, .h4 {
-    font-size: 1.714em;
-    line-height: 1.45em;
-    margin-top: 30px;
-    margin-bottom: 15px;
-}
-
-h4+.category, h4.title+.category, .h4+.category, .h4.title+.category {
-    margin-top: -10px;
-}
-
-h5, .h5 {
-    font-size: 1.57em;
-    line-height: 1.4em;
-    margin-bottom: 15px;
-}
-
-h6, .h6 {
-    font-size: 1em;
-    font-weight: 700;
-    text-transform: uppercase;
 }
 
 p.description {
@@ -921,13 +884,13 @@ body {
     background: white;
 }
 
-.navbar.navbar-transparent .nav-item .nav-link:not(.btn) {
+/* .navbar.navbar-transparent .nav-item .nav-link:not(.btn) {
     color: white;
 }
 
 .navbar.navbar-transparent .nav-item.active .nav-link:not(.btn), .navbar.navbar-transparent .nav-item .nav-link:not(.btn):focus, .navbar.navbar-transparent .nav-item .nav-link:not(.btn):hover, .navbar.navbar-transparent .nav-item .nav-link:not(.btn):focus:hover, .navbar.navbar-transparent .nav-item .nav-link:not(.btn):active {
     color: #51cbce;
-}
+} */
 
 .navbar.bg-white a:not(.dropdown-item):not(.btn) {
     color: white;
@@ -942,9 +905,9 @@ body {
     background: white;
 }
 
-.navbar.bg-white .nav-item.active .nav-link:not(.btn), .navbar.bg-white .nav-item .nav-link:not(.btn):focus, .navbar.bg-white .nav-item .nav-link:not(.btn):hover, .navbar.bg-white .nav-item .nav-link:not(.btn):active {
+/* .navbar.bg-white .nav-item.active .nav-link:not(.btn), .navbar.bg-white .nav-item .nav-link:not(.btn):focus, .navbar.bg-white .nav-item .nav-link:not(.btn):hover, .navbar.bg-white .nav-item .nav-link:not(.btn):active {
     color: #51bcda;
-}
+} */
 
 .navbar.bg-white .logo-container {
     border: 1px solid white;
@@ -1011,10 +974,6 @@ body {
 
 .page-header .title {
     margin-bottom: 15px;
-}
-
-.page-header .title+h4 {
-    margin-top: 10px;
 }
 
 .page-header:after, .page-header:before {
@@ -2244,10 +2203,10 @@ License - nucleoapp.com/license/
     width: 260px;
     left: 0;
     z-index: 1030;
-    border-right: 1px solid #ddd;
 }
 
 .sidebar .sidebar-wrapper, .off-canvas-sidebar .sidebar-wrapper {
+    background: #222225;
     position: relative;
     height: calc(100vh - 75px);
     overflow: auto;
@@ -2425,7 +2384,7 @@ License - nucleoapp.com/license/
 
 .sidebar .logo-tim, .off-canvas-sidebar .logo-tim {
     border-radius: 50%;
-    border: 1px solid #333;
+    border: 1px solid;
     display: block;
     height: 61px;
     width: 61px;
@@ -2456,7 +2415,7 @@ License - nucleoapp.com/license/
 }
 
 .sidebar[data-color="white"]:after, .off-canvas-sidebar[data-color="white"]:after {
-    background: black;
+    background: #222225;
 }
 
 .sidebar[data-color="white"] .nav li a, .sidebar[data-color="white"] .nav li a i, .sidebar[data-color="white"] .nav li a[data-toggle="collapse"], .sidebar[data-color="white"] .nav li a[data-toggle="collapse"] i, .sidebar[data-color="white"] .nav li a[data-toggle="collapse"]~div>ul>li .sidebar-mini-icon, .sidebar[data-color="white"] .nav li a[data-toggle="collapse"]~div>ul>li>a, .off-canvas-sidebar[data-color="white"] .nav li a, .off-canvas-sidebar[data-color="white"] .nav li a i, .off-canvas-sidebar[data-color="white"] .nav li a[data-toggle="collapse"], .off-canvas-sidebar[data-color="white"] .nav li a[data-toggle="collapse"] i, .off-canvas-sidebar[data-color="white"] .nav li a[data-toggle="collapse"]~div>ul>li .sidebar-mini-icon, .off-canvas-sidebar[data-color="white"] .nav li a[data-toggle="collapse"]~div>ul>li>a {
@@ -2487,7 +2446,7 @@ License - nucleoapp.com/license/
 }
 
 .sidebar[data-color="black"]:after, .off-canvas-sidebar[data-color="black"]:after {
-    background: #212120;
+    background: #272727;
 }
 
 .sidebar[data-active-color="primary"] .nav li.active>a, .sidebar[data-active-color="primary"] .nav li.active>a i, .sidebar[data-active-color="primary"] .nav li.active>a[data-toggle="collapse"], .sidebar[data-active-color="primary"] .nav li.active>a[data-toggle="collapse"] i, .sidebar[data-active-color="primary"] .nav li.active>a[data-toggle="collapse"]~div>ul>li.active .sidebar-mini-icon, .sidebar[data-active-color="primary"] .nav li.active>a[data-toggle="collapse"]~div>ul>li.active>a, .off-canvas-sidebar[data-active-color="primary"] .nav li.active>a, .off-canvas-sidebar[data-active-color="primary"] .nav li.active>a i, .off-canvas-sidebar[data-active-color="primary"] .nav li.active>a[data-toggle="collapse"], .off-canvas-sidebar[data-active-color="primary"] .nav li.active>a[data-toggle="collapse"] i, .off-canvas-sidebar[data-active-color="primary"] .nav li.active>a[data-toggle="collapse"]~div>ul>li.active .sidebar-mini-icon, .off-canvas-sidebar[data-active-color="primary"] .nav li.active>a[data-toggle="collapse"]~div>ul>li.active>a {
@@ -2513,14 +2472,14 @@ License - nucleoapp.com/license/
 }
 
 .off-canvas-sidebar .nav>li>a:focus {
-    background: rgba(200, 200, 200, 0.2);
+    background: #272727;
 }
 
 .main-panel {
     position: relative;
     float: right;
     width: calc(100% - 260px);
-    background-color: #242424;
+    background-color: #272727;
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
 }
 
@@ -2709,11 +2668,6 @@ License - nucleoapp.com/license/
 
 .fixed-plugin .badge.badge-light.active, .fixed-plugin .badge.badge-light:hover {
     border: 3px solid #0bf;
-}
-
-.fixed-plugin h5 {
-    font-size: 14px;
-    margin: 10px;
 }
 
 .fixed-plugin .dropdown-menu li {
@@ -3109,11 +3063,6 @@ License - nucleoapp.com/license/
 
 .card-user .card-body+.card-footer {
     padding-top: 0;
-}
-
-.card-user .card-footer h5 {
-    font-size: 1.25em;
-    margin-bottom: 0;
 }
 
 .card-user .button-container {
@@ -3568,7 +3517,7 @@ License - nucleoapp.com/license/
         padding-right: 15px;
     }
     .sidebar .sidebar-wrapper li.active>a:not([data-toggle="collapse"]):before, .sidebar .sidebar-wrapper li.active>[data-toggle="collapse"]+div .nav li:before {
-        border-right: 17px solid black;
+        border-right: 17px solid;
         border-top: 17px solid transparent;
         border-bottom: 17px solid transparent;
         content: "";
@@ -3580,7 +3529,7 @@ License - nucleoapp.com/license/
         transition: opacity 150ms ease-in;
     }
     .sidebar .sidebar-wrapper li.active>a:not([data-toggle="collapse"]):after, .sidebar .sidebar-wrapper li.active>[data-toggle="collapse"]+div .nav li:after {
-        border-right: 17px solid black;
+        border-right: 17px solid;
         border-top: 17px solid transparent;
         border-bottom: 17px solid transparent;
         content: "";
@@ -3682,9 +3631,6 @@ License - nucleoapp.com/license/
     }
     .section-nucleo-icons .icons-container i:nth-child(6) {
         font-size: 48px;
-    }
-    .page-header .container h6.category-absolute {
-        width: 90%;
     }
     .card-timeline .timeline .timeline-panel {
         width: 38%;

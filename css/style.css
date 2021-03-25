@@ -309,3 +309,28 @@ a:link {
   height: 100%;
   display: block;
 }
+
+.botaoponto {
+  border-radius: 5px;
+  height: 90px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  background: #38a3a5;
+}
+
+.botaoponto:hover {
+  background-color: #226566;
+}
+
+.icone-nav-aside {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+@media(min-width:1000px) {
+  .botaoponto {
+    margin-left: 300px;
+  }
+}
