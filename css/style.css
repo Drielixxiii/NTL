@@ -13,7 +13,7 @@ nav {
 h1, h2 {
   font-weight: 700;
   color: #e1e1e6;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Cabin";
   font-size: 40px;
 }
 
@@ -53,6 +53,19 @@ a:link {
   width: 60px;
 }
 
+.tecnologia {
+  height: 500px;
+  filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.250));
+  margin-bottom: 50px;
+}
+
+/* .evolucao {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+} */
+
 .titulo {
   color: #e1e1e6;
   font-size: 40px;
@@ -65,7 +78,7 @@ a:link {
 .contato h1 {
   /* text-align: center; */
   color: #38a3a5;
-  font-family: "Raleway";
+  font-family: "Cabin";
 }
 
 .contato a {
@@ -95,19 +108,19 @@ a:link {
 }
 
 .slogan {
-  font-family: 'Raleway', serif;
+  font-family: 'Cabin';
   color: white;
   font-size: 80px;
 }
 
 .subtitulo {
-  font-family: "raleway";
+  font-family: "Cabin";
   color: #e1e1e6;
   padding-bottom: 1cm;
 }
 
 .apoio {
-  font-family: "Raleway";
+  font-family: "Cabin";
   color: #e1e1e6;
   text-align: center;
   height: 300px;
@@ -115,18 +128,18 @@ a:link {
 
 .marcasimagens img {
   filter: grayscale(100%);
-  -webkit-transition: 0.5s ease-in;
-  -moz-transition: 0.5s ease-in;
-  -o-transition: 0.5s ease-in;
-  transition: 0.5s ease-in;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
 }
 
 .marcasimagens img:hover {
   filter: grayscale(0%);
-  -webkit-transition: 0.5s ease-in;
-  -moz-transition: 0.5s ease-in;
-  -o-transition: 0.5s ease-in;
-  transition: 0.5s ease-in;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
 }
 
 .marketing .col-lg-4 {
@@ -161,7 +174,7 @@ a:link {
 }
 
 .menu {
-  font-family: "Raleway";
+  font-family: "Cabin";
   font-size: 40px;
 }
 
@@ -261,6 +274,12 @@ a:link {
   }
 }
 
+@media(max-width:1000px) {
+  .tecnologia {
+    height: 200px;
+  }
+}
+
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
@@ -328,6 +347,12 @@ a:link {
   height: 40px;
   margin: 0 auto;
 }
+
+/* video{
+  filter: blur(50%);
+  filter: grayscale(50%);
+  filter: contrast(50%);
+} */
 
 @media(min-width:1000px) {
   .botaoponto {

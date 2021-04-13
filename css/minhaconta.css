@@ -407,7 +407,7 @@ textarea.form-control {
 }
 
 button, input, optgroup, select, textarea {
-    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+    font-family: "Cabin";
 }
 
 a {
@@ -458,7 +458,7 @@ p.description {
 body {
     color: white;
     font-size: 14px;
-    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+    font-family: "Cabin";
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 }
@@ -607,7 +607,7 @@ body {
 }
 
 .form-check .form-check-sign::after {
-    font-family: 'FontAwesome';
+    font-family: 'Cabin';
     content: "\f00c";
     top: -1px;
     text-align: center;
@@ -657,7 +657,7 @@ body {
 }
 
 .form-check-radio .form-check-sign::before {
-    font-family: 'FontAwesome';
+    font-family: 'Cabin';
     content: "\f10c";
     font-size: 22px;
     -webkit-font-smoothing: antialiased;
@@ -681,7 +681,7 @@ body {
 }
 
 .form-check-radio input[type="radio"]:checked+.form-check-sign::after {
-    font-family: 'FontAwesome';
+    font-family: 'Cabin';
     content: "\f192";
     top: -5px;
     position: absolute;
@@ -2366,7 +2366,7 @@ License - nucleoapp.com/license/
     margin: 10px 10px;
     color: #FFFFFF;
     line-height: 20px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Cabin";
 }
 
 .sidebar .logo .simple-text, .off-canvas-sidebar .logo .simple-text {

@@ -52,7 +52,7 @@
   position: absolute;
   transform: translateY(-100px);
   text-transform: uppercase;
-  font-family: "Raleway";
+  font-family: "Cabin";
   font-weight: bolder;
   transition: all 0.3s;
 }

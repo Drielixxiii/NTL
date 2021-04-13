@@ -13,7 +13,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Cabin";
   color: #383838;
   background-color: #f8f8f8;
 }
@@ -317,7 +317,7 @@ a {
   line-height: 1.2; */
   font-weight: bold;
   color: #e1e1e6;
-  font-family: Helvetica, Arial, sans-serif;
+  /* font-family: Helvetica, Arial, sans-serif; */
   font-weight: 700;
 }
 
