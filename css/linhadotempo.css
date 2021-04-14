@@ -184,7 +184,7 @@ a {
   transform: translateY(-50%);
   height: 34px;
   width: 34px;
-  border-radius: 50%;
+  border-radius: 30%;
   border: 2px solid #dfdfdf;
   /* replace text with an icon */
   overflow: hidden;
@@ -194,6 +194,7 @@ a {
   -webkit-transition: border-color 0.3s;
   -moz-transition: border-color 0.3s;
   transition: border-color 0.3s;
+  background-color: #383838;
 }
 
 .cd-timeline-navigation a::after {
@@ -232,7 +233,8 @@ a {
 }
 
 .cd-timeline-navigation a.inactive {
-  cursor: not-allowed;
+  background: transparent;
+  cursor: default;
 }
 
 .cd-timeline-navigation a.inactive::after {
@@ -323,12 +325,12 @@ a {
 
 .cd-horizontal-timeline .events-content em {
   display: block;
-  font-style: italic;
+  font-style: normal;
   margin: 10px auto;
 }
 
 .cd-horizontal-timeline .events-content em::before {
-  content: "- ";
+  content: "• ";
 }
 
 .cd-horizontal-timeline .events-content p {

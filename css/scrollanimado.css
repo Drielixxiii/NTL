@@ -106,8 +106,8 @@ body, ul, li {
 
 .animais-lista::-webkit-scrollbar-thumb {
   background: #38a3a5;
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
 }
 
 .animais-lista::-webkit-scrollbar-track {
@@ -122,3 +122,23 @@ body, ul, li {
 .animais-descricao section {
   margin-bottom: 3rem;
 }
+
+/* .progress-container {
+  margin-left: 40px;
+  width: 585px;
+  height: 8px;
+  background: black;
+  z-index: 1;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #38a3a5;
+  width: 0%;
+}
+
+.content {
+  padding: 100px 0;
+  margin: 50px auto 0 auto;
+  width: 80%;
+} */

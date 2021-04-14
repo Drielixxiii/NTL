@@ -333,17 +333,17 @@ window.addEventListener("scroll", function () {
   video.style.opacity = value;
 });
 
-const tel = document.getElementById("tel"); // Seletor do campo de telefone
+// const tel = document.getElementById("tel"); // Seletor do campo de telefone
 
-tel.addEventListener("keypress", (e) => mascaraTelefone(e.target.value)); // Dispara quando digitado no campo
-tel.addEventListener("change", (e) => mascaraTelefone(e.target.value)); // Dispara quando autocompletado o campo
+// tel.addEventListener("keypress", (e) => mascaraTelefone(e.target.value)); // Dispara quando digitado no campo
+// tel.addEventListener("change", (e) => mascaraTelefone(e.target.value)); // Dispara quando autocompletado o campo
 
-const mascaraTelefone = (valor) => {
-  valor = valor.replace(/\D/g, "");
-  valor = valor.replace(/^(\d{2})(\d)/g, "($1) $2");
-  valor = valor.replace(/(\d)(\d{4})$/, "$1-$2");
-  tel.value = valor; // Insere o(s) valor(es) no campo
-};
+// const mascaraTelefone = (valor) => {
+//   valor = valor.replace(/\D/g, "");
+//   valor = valor.replace(/^(\d{2})(\d)/g, "($1) $2");
+//   valor = valor.replace(/(\d)(\d{4})$/, "$1-$2");
+//   tel.value = valor; // Insere o(s) valor(es) no campo
+// };
 
 var maquinadeescrever = document.getElementById("maquinadeescrever");
 
@@ -374,14 +374,29 @@ var i = setInterval(function () {
   clearInterval(i);
   document.getElementById("loading").style.display = "none";
   document.getElementById("conteudo").style.display = "inline";
-}, 0);
+}, 3000);
 
 window.onload = function onLoad() {
   var circle = new ProgressBar.Circle("#progress", {
     color: "#38a3a5",
-    duration: 0,
+    duration: 3500,
     easing: "easeInOut",
   });
 
-  circle.animate(1);
+  circle.animate(2);
 };
+
+// =====================================================
+
+// window.onscroll = function () {
+//   myFunction();
+// };
+
+// function myFunction() {
+//   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+//   var height =
+//     document.documentElement.scrollHeight -
+//     document.documentElement.clientHeight;
+//   var scrolled = (winScroll / height) * 100;
+//   document.getElementById("myBar").style.width = scrolled + "%";
+// }
