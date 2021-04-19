@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 input {
     display: block;
     background-color: transparent !important;
@@ -408,6 +409,7 @@ textarea.form-control {
 
 button, input, optgroup, select, textarea {
     font-family: "Cabin";
+    letter-spacing: 1px;
 }
 
 a {
@@ -459,6 +461,7 @@ body {
     color: white;
     font-size: 14px;
     font-family: "Cabin";
+    letter-spacing: 1px;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 }
@@ -608,6 +611,7 @@ body {
 
 .form-check .form-check-sign::after {
     font-family: 'Cabin';
+    letter-spacing: 1px;
     content: "\f00c";
     top: -1px;
     text-align: center;
@@ -658,6 +662,7 @@ body {
 
 .form-check-radio .form-check-sign::before {
     font-family: 'Cabin';
+    letter-spacing: 1px;
     content: "\f10c";
     font-size: 22px;
     -webkit-font-smoothing: antialiased;
@@ -682,6 +687,7 @@ body {
 
 .form-check-radio input[type="radio"]:checked+.form-check-sign::after {
     font-family: 'Cabin';
+    letter-spacing: 1px;
     content: "\f192";
     top: -5px;
     position: absolute;
@@ -1009,7 +1015,7 @@ body {
 .dropdown .dropdown-menu, .dropup .dropdown-menu {
     opacity: 0;
     filter: alpha(opacity=0);
-    box-shadow: 1px 2px 7px 1px rgba(0, 0, 0, 0.125);
+    /* box-shadow: 1px 2px 7px 1px rgba(0, 0, 0, 0.125); */
     visibility: hidden;
     position: absolute;
 }
@@ -1463,10 +1469,10 @@ img {
     max-width: 100%;
     border-radius: 3px;
 }
-
+/* 
 .img-raised {
     box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
-}
+} */
 
 /*--------------------------------
 
@@ -1476,7 +1482,8 @@ License - nucleoapp.com/license/
 -------------------------------- */
 
 @font-face {
-    font-family: 'nucleo-icons';
+    font-family: 'Cabin';
+    letter-spacing: 1px;
     src: url("../fonts/nucleo-icons.eot");
     src: url("../fonts/nucleo-icons.eot") format("embedded-opentype"), url("../fonts/nucleo-icons.woff2") format("woff2"), url("../fonts/nucleo-icons.woff") format("woff"), url("../fonts/nucleo-icons.ttf") format("truetype"), url("../fonts/nucleo-icons.svg") format("svg");
     font-weight: normal;
@@ -2367,6 +2374,7 @@ License - nucleoapp.com/license/
     color: #FFFFFF;
     line-height: 20px;
     font-family: "Cabin";
+    letter-spacing: 1px;
 }
 
 .sidebar .logo .simple-text, .off-canvas-sidebar .logo .simple-text {
@@ -2432,7 +2440,8 @@ License - nucleoapp.com/license/
 }
 
 .sidebar[data-color="white"] .logo:after, .off-canvas-sidebar[data-color="white"] .logo:after {
-    background-color: white;
+    background-color: #5e5e5e;
+    /*AQUI*/
     /* opacity: .4; */
 }
 
@@ -2864,7 +2873,7 @@ License - nucleoapp.com/license/
 
 .card {
     border-radius: 12px;
-    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+    /* box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15); */
     background-color: #FFFFFF;
     color: white;
     margin-bottom: 20px;

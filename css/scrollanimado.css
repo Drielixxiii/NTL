@@ -94,6 +94,7 @@ body, ul, li {
   height: 400px;
   overflow-y: scroll;
   grid-column: 2;
+  margin-top: 30px;
 }
 
 .animais-lista li {
@@ -123,22 +124,16 @@ body, ul, li {
   margin-bottom: 3rem;
 }
 
-/* .progress-container {
-  margin-left: 40px;
-  width: 585px;
-  height: 8px;
-  background: black;
-  z-index: 1;
+/* .animais-lista::-webkit-scrollbar {
+  width: 0;
 }
 
-.progress-bar {
-  height: 8px;
+#barraprogresso {
+  position: relative;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 100%;
+  border-radius: 10px;
   background: #38a3a5;
-  width: 0%;
-}
-
-.content {
-  padding: 100px 0;
-  margin: 50px auto 0 auto;
-  width: 80%;
 } */
