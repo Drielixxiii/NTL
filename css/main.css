@@ -37,7 +37,7 @@ nav a {
   line-height: 1.6;
   margin: 15px 3px;
   padding: 10px 15px;
-  opacity: 0.8;
+  /* opacity: 0.8; */
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 300;

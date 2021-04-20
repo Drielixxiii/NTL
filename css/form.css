@@ -54,7 +54,7 @@
   transform: translateY(-100px);
   text-transform: uppercase;
   font-family: "Cabin";
-  font-weight: bolder;
+  /* font-weight: bolder; */
   transition: all 0.3s;
 }
 
@@ -74,7 +74,7 @@
 }
 
 .social-media:hover {
-  border-radius: 5px;
+  border-radius: 0px;
   padding: 16px 90px;
   background-color: #38a3a5;
 }

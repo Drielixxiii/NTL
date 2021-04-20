@@ -2,7 +2,24 @@ body {
   background-image: linear-gradient(to right, black, #272726);
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(39, 39, 38);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #38a3a5;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #38a3a5;
+}
+
 footer {
+  margin-top: 65px;
   color: white;
 }
 
@@ -11,7 +28,7 @@ nav {
 }
 
 h1, h2 {
-  font-weight: 700;
+  font-weight: 100 !important;
   color: #e1e1e6;
   font-family: "Cabin";
   font-size: 40px;
@@ -59,17 +76,19 @@ a:link {
   filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.250));
 }
 
-.evolucao {
-  margin-bottom: 50px;
-  font-size: 60px;
+.evolua {
+  font-size: 50px;
+  font-weight: 100;
 }
 
 .titulo {
   color: #e1e1e6;
-  font-size: 40px;
+  font-size: 50px;
+  font-weight: 100;
   line-height: 1;
   margin-bottom: 1px;
   grid-column: 1 / 4;
+  text-transform: uppercase;
 }
 
 .contato h1 {
@@ -90,19 +109,6 @@ a:link {
   height: 90px;
 }
 
-.neon {
-  position: absolute;
-  top: 50%;
-  transition: 0, 5s;
-  outline: 0;
-  border-radius: 5px;
-}
-
-.neon:hover {
-  -webkit-filter: drop-shadow(0 0 5px white);
-  filter: drop-shadow(0 0 5px white);
-}
-
 .slogan {
   font-family: 'Cabin';
   color: white;
@@ -121,6 +127,7 @@ a:link {
   color: #e1e1e6;
   text-align: center;
   height: 300px;
+  font-weight: 100 !important;
 }
 
 .esquerda {
@@ -150,7 +157,7 @@ a:link {
 }
 
 .marketing h2 {
-  font-weight: 400;
+  font-weight: 100;
 }
 
 .marketing .col-lg-4 p {
@@ -165,7 +172,6 @@ a:link {
 
 .galeria {
   margin: 25px;
-  /* border: 1px solid; */
   float: left;
   width: 180px;
 }
@@ -191,7 +197,7 @@ a:link {
 
 #proximasessao {
   animation: seta 800ms steps(40) infinite normal;
-  animation-delay: 43s;
+  animation-delay: 41s;
   opacity: 0;
 }
 
@@ -208,6 +214,102 @@ a:link {
     width: 40px;
     opacity: 0;
   }
+}
+
+.imagemservico {
+  width: 450px;
+  height: 450px;
+  background-color: transparent;
+  border-radius: 30px;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.barradivisao-divider {
+  margin: 5rem 0;
+}
+
+.lado {
+  text-align: right;
+}
+
+.carregar {
+  margin: auto;
+  height: 100%;
+  display: block;
+  width: 50%;
+  padding: 200px;
+  overflow-Y: hidden;
+}
+
+.progress {
+  height: 300px;
+  background-color: transparent;
+}
+
+.progress>svg {
+  height: 100%;
+  display: block;
+}
+
+.botaoponto {
+  border-radius: 5px;
+  height: 90px;
+  color: white;
+  font-size: 16px;
+  font-weight: 100;
+  background: #38a3a5;
+}
+
+.botaoponto:hover {
+  background-color: #226566;
+}
+
+.linha2 {
+  height: 5px;
+  width: 100px;
+  background: #38a3a5;
+  border-top: 3px solid #38a3a5;
+  animation: cresce 2s normal;
+  margin-top: 1px;
+  margin-bottom: 25px;
+  opacity: 1;
+}
+
+@keyframes cresce {
+  from {
+    width: 20px;
+  }
+  to {
+    width: 100px;
+  }
+}
+
+.vermapa {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 15px;
+  border: 1px solid #38a3a5;
+  color: #38a3a5;
+  transition: 1s ease-in-out;
+}
+
+.vermapa:hover {
+  background-color: #38a3a5;
+  color: #000;
+  transition: 0.7s ease-out;
+}
+
+.unidadesimg {
+  transition: 0.5s ease-in-out;
+}
+
+.unidadesimg:hover {
+  transition: 0.5s ease-out;
+  transform: scale(1.1);
 }
 
 @media (min-width: 1000px) {
@@ -248,35 +350,47 @@ a:link {
       border-right-color: transparent;
     }
   }
-}
-
-.imagemservico {
-  width: 450px;
-  height: 450px;
-  background-color: transparent;
-  border-radius: 30px;
-}
-
-.marketing .col-lg-4 p {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
-}
-
-.barradivisao-divider {
-  margin: 5rem 0;
-}
-
-.lado {
-  text-align: right;
-}
-
-@media(max-width:62em) {
-  .titulo {
-    margin-top: 3cm;
+  .botaoponto {
+    margin-left: 300px;
   }
-  .imagemservico {
-    display: none;
-    /* max-width: 100%; */
+  .botaologin {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #38a3a5 !important;
+    border-radius: 4px;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+  }
+  .botaologin:hover {
+    background-color: #38a3a5 !important;
+    transition: 0.5s ease-out;
+    color: #000 !important;
+  }
+  .caixa a {
+    line-height: 125px;
+  }
+  .sublinhado {
+    position: relative;
+    display: inline-block;
+  }
+  .sublinhado, .sublinhado:hover, .sublinhado:focus, .sublinhado:active {
+    color: #fff;
+  }
+  .sublinhado::after {
+    content: "";
+    position: absolute;
+  }
+  .caixa .sublinhado::after {
+    top: 80%;
+    height: 2px;
+    width: 20%;
+    left: 20%;
+    background-color: #38a3a5;
+    transition: 0.5s ease all .3s;
+  }
+  .caixa:hover .sublinhado::after {
+    width: 60px;
+    transition: 0.3s ease all;
   }
 }
 
@@ -303,88 +417,25 @@ a:link {
   }
 }
 
-body::-webkit-scrollbar {
-  width: 10px;
+@media(max-width:62em) {
+  .titulo {
+    margin-top: 3cm;
+  }
+  .imagemservico {
+    display: none;
+    /* max-width: 100%; */
+  }
 }
 
-body::-webkit-scrollbar-track {
-  background: rgb(39, 39, 38);
-}
-
-body::-webkit-scrollbar-thumb {
-  background: #38a3a5;
-}
-
-body::-webkit-scrollbar-thumb:hover {
-  background: #38a3a5;
-}
-
-.carregar {
-  margin: auto;
-  height: 100%;
-  display: block;
-  width: 50%;
-  padding: 200px;
-  overflow-Y: hidden;
-}
-
-.progress {
-  height: 300px;
-  background-color: transparent;
-}
-
-.progress>svg {
-  height: 100%;
-  display: block;
-}
-
-.botaoponto {
+/* .neon {
+  position: absolute;
+  top: 50%;
+  transition: 0, 5s;
+  outline: 0;
   border-radius: 5px;
-  height: 90px;
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
-  background: #38a3a5;
 }
 
-.botaoponto:hover {
-  background-color: #226566;
-}
-
-.icone-nav-aside {
-  width: 40px;
-  height: 40px;
-  margin: 0 auto;
-}
-
-/* video{
-  filter: blur(50%);
-  filter: grayscale(50%);
-  filter: contrast(50%);
+.neon:hover {
+  -webkit-filter: drop-shadow(0 0 5px white);
+  filter: drop-shadow(0 0 5px white);
 } */
-
-@media(min-width:1000px) {
-  .botaoponto {
-    margin-left: 300px;
-  }
-}
-
-.linha2 {
-  height: 5px;
-  width: 100px;
-  background: #38a3a5;
-  border-top: 3px solid #38a3a5;
-  animation: cresce 2s normal;
-  margin-top: 1px;
-  margin-bottom: 25px;
-  opacity: 1;
-}
-
-@keyframes cresce {
-  from {
-    width: 20px;
-  }
-  to {
-    width: 100px;
-  }
-}
