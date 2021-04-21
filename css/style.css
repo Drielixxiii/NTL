@@ -312,6 +312,10 @@ a:link {
   transform: scale(1.1);
 }
 
+.icone-nav-aside {
+  width: 35px;
+  height: 35px;
+}
 @media (min-width: 1000px) {
   .line {
     border-right: 2px solid rgba(255, 255, 255, 0.75);
