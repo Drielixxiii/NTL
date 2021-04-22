@@ -197,7 +197,7 @@ a:link {
 
 #proximasessao {
   animation: seta 800ms steps(40) infinite normal;
-  animation-delay: 41s;
+  animation-delay: 38s;
   opacity: 0;
 }
 

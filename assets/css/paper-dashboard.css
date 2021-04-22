@@ -374,7 +374,7 @@ hr {
 .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
   background-color: #E3E3E3;
   color: #66615B;
-  cursor: not-allowed;
+  cursor: default;
 }
 
 .input-group-btn .btn {
@@ -828,7 +828,7 @@ body {
 .form-check.disabled .form-check-label {
   color: #9A9A9A;
   opacity: .5;
-  cursor: not-allowed;
+  cursor: default;
 }
 
 .form-check input[type="checkbox"], .form-check-radio input[type="radio"] {
@@ -842,7 +842,7 @@ body {
 }
 
 .form-control input[type="checkbox"]:disabled+.form-check-sign::before, .checkbox input[type="checkbox"]:disabled+.form-check-sign::after {
-  cursor: not-allowed;
+  cursor: default;
 }
 
 .form-check .form-check-label input[type="checkbox"]:disabled+.form-check-sign, .form-check-radio input[type="radio"]:disabled+.form-check-sign {
@@ -860,7 +860,7 @@ body {
 .form-check-radio.disabled .form-check-label {
   color: #9A9A9A;
   opacity: .5;
-  cursor: not-allowed;
+  cursor: default;
 }
 
 .form-check-radio .form-check-sign::before {

@@ -51,6 +51,12 @@
                             <p>Relatório</p>
                         </a>
                     </li>
+                    <li>
+                        <a href="./index.html">
+                            <i><img class="icone-nav-aside" src="img/logout.png" /></i>
+                            <p>Sair</p>
+                        </a>
+                    </li>
                 </ul>
             </div>
 
@@ -103,13 +109,7 @@
                             <img src="img/logoBranca.png" style="width: 100px;">
                         </a>
                     </div>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
-                        aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-bar navbar-kebab"></span>
-                        <span class="navbar-toggler-bar navbar-kebab"></span>
-                        <span class="navbar-toggler-bar navbar-kebab"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navigation">
+                    <!-- <div class="collapse navbar-collapse justify-content-end" id="navigation">
                         <ul class="navbar-nav me-auto mb-2 ms-5 mb-md-0 ">
                             <li class="nav-item">
                                 <a class="nav-link js-scroll-trigger" href="index.html">INICIO</a>
@@ -117,7 +117,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="servicos.html">SAIR</a>
                             </li>
-                            <!-- <li class="nav-item btn-rotate dropdown">
+                            <li class="nav-item btn-rotate dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     MINHA CONTA
@@ -127,14 +127,9 @@
                                         href="#">Entrar</a>
                                     <a class="dropdown-item" href="cadastro.html">Cadastrar-se</a>
                                 </div>
-                            </li> -->
+                            </li>
                         </ul>
-                        <form>
-                            <div class="input-group">
-                                <!-- <button class="btn btn-outline-light" type="submit"><a class="botaoprocurar" href="filtro.html">Buscar</a></button> -->
-                            </div>
-                        </form>
-                    </div>
+                    </div> -->
                 </div>
             </nav>
 
@@ -176,8 +171,8 @@
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <label>Endereço</label>
-                                                <input type="text" class="form-control"
-                                                    placeholder="Digite seu endereço" value=" " readonly />
+                                                <input type="text" class="form-control" placeholder="Logradouro"
+                                                    readonly />
                                             </div>
                                         </div>
                                     </div>
@@ -191,9 +186,9 @@
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
-                                                <label>Rua</label>
-                                                <input type="text" class="form-control" placeholder="Logradouro"
-                                                    value="" readonly />
+                                                <label>Cidade</label>
+                                                <input type="text" class="form-control" placeholder="Cidade" value=""
+                                                    readonly />
                                             </div>
                                         </div>
                                         <div class="col-md-4">
@@ -203,7 +198,6 @@
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="row">
                                         <div class="update ml-auto mr-auto">
                                             <button type="submit" class="btn btn-md btn-round"
@@ -218,7 +212,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
     <!--   Core JS Files   -->
@@ -227,7 +220,8 @@
     <script src="./assets/js/core/bootstrap.min.js"></script>
 
     <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
+    <!-- script do burger menu -->
+    <script type="text/javascript" src="js/app2.js"></script>
 
     <!-- Chart JS -->
     <script src="./assets/js/plugins/chartjs.min.js"></script>
