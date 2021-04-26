@@ -83,7 +83,7 @@ a:link {
 
 .titulo {
   color: #e1e1e6;
-  font-size: 50px;
+  /* font-size: 50px; */
   font-weight: 100;
   line-height: 1;
   margin-bottom: 1px;
@@ -316,6 +316,7 @@ a:link {
   width: 35px;
   height: 35px;
 }
+
 @media (min-width: 1000px) {
   .line {
     border-right: 2px solid rgba(255, 255, 255, 0.75);
@@ -399,6 +400,9 @@ a:link {
 }
 
 @media(max-width:1000px) {
+  .conteudo{
+    margin: 20px;
+  }
   .tecnologia {
     height: 190px;
   }
@@ -406,11 +410,17 @@ a:link {
     font-size: 60px;
   }
   .marcasimagens img {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
   }
   .apoio {
     margin-bottom: 50px;
+  }
+  .unidadesimg {
+    width: 150px;
+  }
+  h1, h2 {
+    font-size: 25px;
   }
 }
 
