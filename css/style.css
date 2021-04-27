@@ -417,11 +417,7 @@ a:link {
 
 @media(max-width:1000px) {
   h1, h2 {
-    font-size: 25px;
-  }
-  .conteudo {
-    margin-left: 20px;
-    margin-right: 20px;
+    font-size: 25px !important;
   }
   .tecnologia {
     height: 190px;
