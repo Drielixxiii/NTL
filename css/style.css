@@ -317,6 +317,16 @@ a:link {
   height: 35px;
 }
 
+.card h3, h4, p {
+  color: white !important;
+}
+
+.card:hover {
+  transition: 1s;
+  color: #dadada;
+  background: #226566;
+}
+
 @media (min-width: 1000px) {
   .line {
     border-right: 2px solid rgba(255, 255, 255, 0.75);
@@ -397,11 +407,21 @@ a:link {
     width: 60px;
     transition: 0.3s ease all;
   }
+  .card {
+    background: #272726;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100px;
+  }
 }
 
 @media(max-width:1000px) {
-  .conteudo{
-    margin: 20px;
+  h1, h2 {
+    font-size: 25px;
+  }
+  .conteudo {
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .tecnologia {
     height: 190px;
@@ -419,8 +439,17 @@ a:link {
   .unidadesimg {
     width: 150px;
   }
-  h1, h2 {
-    font-size: 25px;
+  .animais {
+    display: none;
+  }
+  .cards {
+    margin: 5px;
+  }
+  .card {
+    background: #272726;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 50px;
   }
 }
 
