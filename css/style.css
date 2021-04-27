@@ -413,6 +413,9 @@ a:link {
     margin-right: 20px;
     width: 100px;
   }
+  .opnioes {
+    margin-bottom: 50px;
+  }
 }
 
 @media(max-width:1000px) {
@@ -420,7 +423,7 @@ a:link {
     font-size: 25px !important;
   }
   .tecnologia {
-    height: 190px;
+    height: 185px;
   }
   .slogan {
     font-size: 60px;
@@ -438,14 +441,8 @@ a:link {
   .animais {
     display: none;
   }
-  .cards {
-    margin: 5px;
-  }
-  .card {
-    background: #272726;
-    margin-left: 5px;
-    margin-right: 5px;
-    width: 50px;
+  .opnioes {
+   display: none;
   }
 }
 
