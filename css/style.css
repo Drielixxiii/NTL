@@ -348,21 +348,22 @@ a:link {
   border: 1px solid #38a3a5;
   margin: 0 25px;
 }
+.saibamais{
 
-.saibamais {
-  /* display:inline-block; */
-  padding: 10px 20px;
-  margin-top: 10px;
-  font-size: 15px;
-  border: 1px solid #38a3a5;
-  background-color: #38a3a5;
-  color: #000 !important;
-  transition: 1s ease-in-out !important;
+   /* display:inline-block; */
+   padding: 10px 20px;
+   margin-top: 10px;
+   font-size: 15px;
+   border: 1px solid #38a3a5;
+   background-color: #38a3a5;
+   color: #000 !important;
+   transition: 1s ease-in-out !important;
+
 }
 
-.saibamais:hover {
+.saibamais:hover{
   transition: 1s ease-out;
-  background-color: #2f8385;
+   background-color: #2f8385;
 }
 
 @media(max-width:1000px) {
@@ -371,7 +372,7 @@ a:link {
     font-size: 25px !important;
   }
   .tecnologia {
-    height: 185px;
+    height: 180px;
   }
   .slogan {
     font-size: 60px;
@@ -399,8 +400,8 @@ a:link {
     width: 300px;
     margin: 0 auto;
   }
-  .cards h3, h4, p {
-    color: #272726;
+  .cards h3, h4{
+    color: white;
     font-weight: 200;
   }
   .circle {
