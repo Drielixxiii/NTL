@@ -34,6 +34,11 @@ h1, h2 {
   font-size: 40px;
 }
 
+h3 {
+  color: white;
+  font-family: 'Cabin';
+}
+
 p {
   color: #a8a8b3;
 }
@@ -328,10 +333,11 @@ a:link {
 .card:hover {
   transition: 2s ease-out;
   color: #dadada;
-  background: #226566;
+  background: #38a3a5;
 }
 
 @media (min-width: 1000px) {
+  /* TELA GRANDE, TELA DE PC */
   .line {
     border-right: 2px solid rgba(255, 255, 255, 0.75);
     color: white;
@@ -420,9 +426,13 @@ a:link {
   .opnioes {
     margin-bottom: 100px;
   }
+  .cards-celular {
+    display: none;
+  }
 }
 
 @media(max-width:1000px) {
+  /* TELA DE CELULAR */
   h1, h2 {
     font-size: 25px !important;
   }
@@ -448,9 +458,17 @@ a:link {
   .opnioes {
     display: none;
   }
+  .cards {
+    color: #dadada;
+    background: #38a3a5;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 62em) {
+  /* TELA DE PC */
   .featurette-heading {
     margin-top: 7rem;
   }
@@ -465,6 +483,7 @@ a:link {
 }
 
 @media(max-width:62em) {
+  /* TELA DE CELULAR */
   .titulo {
     margin-top: 3cm;
   }

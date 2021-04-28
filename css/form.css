@@ -55,7 +55,7 @@
   text-transform: uppercase;
   font-family: "Cabin";
   /* font-weight: bolder; */
-  transition: all 1s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .social-media:nth-child(1) {
