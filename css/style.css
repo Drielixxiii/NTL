@@ -332,6 +332,10 @@ a:link {
   background: #38a3a5;
 }
 
+.italico {
+  font-style: italic;
+}
+
 .pontospositivos {
   margin-top: 30px;
 }
@@ -348,22 +352,21 @@ a:link {
   border: 1px solid #38a3a5;
   margin: 0 25px;
 }
-.saibamais{
 
-   /* display:inline-block; */
-   padding: 10px 20px;
-   margin-top: 10px;
-   font-size: 15px;
-   border: 1px solid #38a3a5;
-   background-color: #38a3a5;
-   color: #000 !important;
-   transition: 1s ease-in-out !important;
-
+.saibamais {
+  /* display:inline-block; */
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 15px;
+  border: 1px solid #38a3a5;
+  background-color: #38a3a5;
+  color: #000 !important;
+  transition: 1s ease-in-out !important;
 }
 
-.saibamais:hover{
+.saibamais:hover {
   transition: 1s ease-out;
-   background-color: #2f8385;
+  background-color: #2f8385;
 }
 
 @media(max-width:1000px) {
@@ -400,7 +403,7 @@ a:link {
     width: 300px;
     margin: 0 auto;
   }
-  .cards h3, h4{
+  .cards h3, h4 {
     color: white;
     font-weight: 200;
   }
@@ -528,16 +531,3 @@ a:link {
     /* max-width: 100%; */
   }
 }
-
-/* .neon {
-  position: absolute;
-  top: 50%;
-  transition: 0, 5s;
-  outline: 0;
-  border-radius: 5px;
-}
-
-.neon:hover {
-  -webkit-filter: drop-shadow(0 0 5px white);
-  filter: drop-shadow(0 0 5px white);
-} */
