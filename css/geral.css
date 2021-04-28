@@ -7,6 +7,5 @@
 @import "parallax.css";
 @import "login.css";
 @import "caroulsel.css";
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Scope+One&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css");

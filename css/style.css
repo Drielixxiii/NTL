@@ -34,11 +34,6 @@ h1, h2 {
   font-size: 40px;
 }
 
-h3 {
-  color: white;
-  font-family: 'Cabin';
-}
-
 p {
   color: #a8a8b3;
 }
@@ -298,6 +293,7 @@ a:link {
   padding: 10px 20px;
   font-size: 15px;
   border: 1px solid #38a3a5;
+  border-radius: 50px;
   color: #38a3a5;
   transition: 1s ease-in-out;
 }
@@ -323,17 +319,93 @@ a:link {
 }
 
 .card h3, h4, p {
-  color: white !important;
+  color: white;
 }
 
 .card {
+  background: #272726;
   transition: 1s ease-in-out;
 }
 
 .card:hover {
   transition: 2s ease-out;
-  color: #dadada;
   background: #38a3a5;
+}
+
+.pontospositivos {
+  margin-top: 30px;
+}
+
+.circle {
+  background-color: #38a3a5;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid #38a3a5;
+  margin: 0 25px;
+}
+
+.saibamais {
+  /* display:inline-block; */
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 15px;
+  border: 1px solid #38a3a5;
+  background-color: #38a3a5;
+  color: #000 !important;
+  transition: 1s ease-in-out !important;
+}
+
+.saibamais:hover {
+  transition: 1s ease-out;
+  background-color: #2f8385;
+}
+
+@media(max-width:1000px) {
+  /* TELA DE CELULAR */
+  h1, h2 {
+    font-size: 25px !important;
+  }
+  .tecnologia {
+    height: 185px;
+  }
+  .slogan {
+    font-size: 60px;
+  }
+  .marcasimagens img {
+    width: 45px;
+    height: 45px;
+  }
+  .apoio {
+    margin-bottom: 50px;
+  }
+  .unidadesimg {
+    width: 150px;
+  }
+  .animais {
+    display: none;
+  }
+  .opnioes {
+    display: none;
+  }
+  .cards {
+    color: #272726 !important;
+    background: #38a3a5;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .cards h3, h4, p {
+    color: #272726;
+    font-weight: 200;
+  }
+  .circle {
+    margin: 0 5px;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -382,7 +454,7 @@ a:link {
     display: inline-block;
     padding: 10px 20px;
     border: 1px solid #38a3a5 !important;
-    border-radius: 4px;
+    border-radius: 50px;
     color: #fff;
     transition: 0.5s ease-in-out;
   }
@@ -418,7 +490,6 @@ a:link {
     transition: 0.3s ease all;
   }
   .card {
-    background: #272726;
     margin-left: 20px;
     margin-right: 20px;
     width: 100px;
@@ -428,42 +499,6 @@ a:link {
   }
   .cards-celular {
     display: none;
-  }
-}
-
-@media(max-width:1000px) {
-  /* TELA DE CELULAR */
-  h1, h2 {
-    font-size: 25px !important;
-  }
-  .tecnologia {
-    height: 185px;
-  }
-  .slogan {
-    font-size: 60px;
-  }
-  .marcasimagens img {
-    width: 45px;
-    height: 45px;
-  }
-  .apoio {
-    margin-bottom: 50px;
-  }
-  .unidadesimg {
-    width: 150px;
-  }
-  .animais {
-    display: none;
-  }
-  .opnioes {
-    display: none;
-  }
-  .cards {
-    color: #dadada;
-    background: #38a3a5;
-    border-radius: 5px;
-    width: 300px;
-    margin: 0 auto;
   }
 }
 
