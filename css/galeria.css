@@ -68,19 +68,19 @@
 }
 
 @media (max-width: 1000px) {
-    /* TELA DE CELULAR  */
-    .grid-section2 {
+  
+    .teste-section2 {
         grid-column: 1;
     }
-    .grid-section2 {
+    .teste-section2 {
         grid-template-columns: 100px 1fr;
         grid-gap: 10px;
     }
 }
 
 @media (min-width: 1000px) {
-    /* TELA DE PC */
-    .grid-section2 {
+    TELA DE PC
+    .teste-section2 {
         grid-column: 2 / 4;
         width: 100%;
         box-sizing: border-box;
