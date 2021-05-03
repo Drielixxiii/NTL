@@ -81,6 +81,9 @@
     grid-template-columns: 100px 1fr;
     grid-gap: 10px;
   }
+  .custom-controls {
+    display: none;
+  }
 }
 
 @media (min-width: 1000px) {
