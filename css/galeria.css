@@ -32,7 +32,7 @@
 
 .slide li.active {
     opacity: 1;
-    transform: scale(1);
+    /* transform: scale(1); */
 }
 
 .custom-controls {
