@@ -32,6 +32,10 @@ h1, h2 {
   color: #e1e1e6;
   font-family: "Cabin";
   font-size: 40px;
+  /* background: linear-gradient( 271.28deg, #e0f9b8 -1.29%, #47e9ea 53.12%, #0e92ff 117.3%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
 p {
@@ -64,16 +68,16 @@ a:link {
   text-decoration: none;
 }
 
-.tecnologia {
-  height: 500px;
-  width: 600px;
+.evolua-img {
+  height: 400px;
+  width: 500px;
   filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.08));
   margin-bottom: 50px;
   transition: 2s ease-in-out;
   margin: 0 auto;
 }
 
-.tecnologia:hover {
+.evolua-img:hover {
   transition: 2s ease-out;
   filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.250));
 }
@@ -376,8 +380,9 @@ a:link {
   h1, h2 {
     font-size: 25px !important;
   }
-  .tecnologia {
-    height: 180px;
+  .evolua-img {
+    height: 280px;
+    width: 380px;
   }
   .slogan {
     font-size: 60px;
@@ -392,9 +397,9 @@ a:link {
   .unidadesimg {
     width: 150px;
   }
-  /* .portfolio {
+  .portfolio {
     display: none;
-  } */
+  }
   .opnioes {
     display: none;
   }
@@ -412,6 +417,15 @@ a:link {
   }
   .circle {
     margin: 0 5px;
+  }
+  .titulo {
+    margin-top: 3cm;
+  }
+  .imagemservico {
+    /* display: none; */
+    width: 300px;
+    height: 300px;
+    margin: 0 auto !important;
   }
 }
 
@@ -507,10 +521,6 @@ a:link {
   .cards-celular {
     display: none;
   }
-}
-
-@media (min-width: 62em) {
-  /* TELA DE PC */
   .featurette-heading {
     margin-top: 7rem;
   }
@@ -524,13 +534,10 @@ a:link {
   }
 }
 
-@media(max-width:62em) {
-  /* TELA DE CELULAR */
-  .titulo {
-    margin-top: 3cm;
-  }
-  .imagemservico {
-    display: none;
-    /* max-width: 100%; */
-  }
-}
+/* 
+.letra-degrade {
+  background: linear-gradient( 271.28deg, #e0f9b8 -1.29%, #47e9ea 53.12%, #0e92ff 117.3%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
