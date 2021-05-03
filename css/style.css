@@ -176,17 +176,6 @@ a:link {
   height: 100px;
 }
 
-.galeria {
-  margin: 25px;
-  float: left;
-  width: 180px;
-}
-
-.galeria img {
-  width: 100%;
-  height: auto;
-}
-
 .menu {
   font-family: "Cabin";
   font-size: 40px;
