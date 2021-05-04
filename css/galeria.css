@@ -1,6 +1,7 @@
 .slide-wrapper {
     overflow: hidden;
     grid-column: 1 / -1;
+    margin: 20px;
 }
 
 .slide {
@@ -13,8 +14,9 @@
 
 .slide li {
     flex-shrink: 0;
-    width: 400px;
-    height: 300px;
+    flex-basis: 300px;
+    /* width: 400px; */
+    /* height: 300px; */
     margin-top: 15px;
     border-radius: 4px;
     overflow: hidden;
@@ -25,9 +27,8 @@
 }
 
 .slide img {
-    /* flex-shrink: 0; */
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: 250px;
 }
 
 .slide li.active {
@@ -65,7 +66,6 @@
 }
 
 @media (max-width: 1000px) {
-  
     .teste-section2 {
         grid-column: 1;
     }
