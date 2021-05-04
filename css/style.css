@@ -412,9 +412,13 @@ a:link {
   }
   .imagemservico {
     /* display: none; */
-    width: 300px;
-    height: 300px;
-    margin: 0 auto !important;
+    width: 250px;
+    height: 250px;
+    margin-left: 90px;
+  }
+  .imagemperguntas {
+    width: 500px;
+    height: 600px;
   }
 }
 
@@ -520,6 +524,9 @@ a:link {
   footer {
     text-align: center;
     align-items: center;
+  }
+  .portfolio-celular {
+    display: none;
   }
 }
 
