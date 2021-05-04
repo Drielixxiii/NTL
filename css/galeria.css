@@ -97,7 +97,7 @@
     height: 330px;
 }
 
-.card-trabalho:hover {
+.card-trabalho div.active {
     background-color: #2d2d2d;
 }
 
