@@ -97,7 +97,7 @@
     height: 330px;
 }
 
-.card-trabalho div.active {
+.card-trabalho:active {
     background-color: #2d2d2d;
 }
 
@@ -115,4 +115,6 @@
 .card-trabalho p {
     margin: 5px;
     color: #b8b8b8;
+    text-align: left;
+    /* line-height: 18px; */
 }
