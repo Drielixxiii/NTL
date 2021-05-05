@@ -17,7 +17,7 @@
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 
-<body class="index-page sidebar-collapse">
+<body class="index-page sidebar-collapse" oncontextmenu="return false">
   <div class="carregar" id="loading">
     <div class="progress" id="progress"></div>
   </div>
@@ -25,10 +25,11 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="300">
       <div class="container">
         <div class="navbar-translate">
-          <a class="navbar-brand" style="font-size: 40px; font-family: 'Cabin'" rel="tooltip" title=""
+          <img class="navbar-brand logo" rel="tooltip" data-placement="bottom" src="img/logo_NOVA">
+          <!-- <a class="navbar-brand" style="font-size: 40px; font-family: 'Cabin'" rel="tooltip" title=""
             data-placement="bottom">
             NTL <br />
-          </a>
+          </a> -->
           <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
             aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-bar bar1"></span>
@@ -86,15 +87,19 @@
 
     <section>
       <div class="page-header section-dark" id="inicio">
-        <div class="posicao-absoluta">
-          <img src="img/teclado.jpg" />
-        </div>
+        <!-- <div class="posicao-absoluta">
+          <img src="img/triangulos.jpg" class="teclado"/>
+        </div> -->
+        <video autoplay muted loop poster="img/programando-suporte.mp4" class="posicao-absoluta">
+          <source src="img/mundo.mp4" type="video/mp4" />
+        </video>
+
         <div class="content-center">
           <div class="container">
             <h1 class="letra-colorida">Bem vindx à NTL.</h1>
           </div>
         </div>
-        <div class="glassmorphism"></div>
+        <!-- <div class="glassmorphism"></div> -->
       </div>
     </section>
 
@@ -166,16 +171,14 @@
       </div>
     </section>
 
-
-
     <section class="oquefazemos container" id="oquefazemos">
       <div class="pt-5 container marketing">
         <div class="row featurette servico1" style="margin-top: 20px;">
           <div class="col-md-6 order-2">
-            <img src="img/como-abrir-sua-conta.png" class="img-fluid imagemperguntas" />
+            <img src="img/nubank.jpg" class="img-fluid imagemperguntas" />
           </div>
-          <div class="col-md-6 order-1 b-3" id="perguntasFrequentes" data-children=".pergunta">
-            <h2 class="featurette-heading " style="font-weight: 700;">
+          <div class="col-md-6 order-1" id="perguntasFrequentes" data-children=".pergunta">
+            <h2 class="featurette-heading" style="font-weight: 700;">
               Todos os serviços que você precisa.
             </h2>
             <div class="pergunta">
@@ -238,8 +241,6 @@
         </div>
       </div>
     </section>
-
-
 
     <section class="grid-section container portfolio pt-5" id="portfolio">
       <h1 class="titulo">Um pouco mais sobre nosso trabalho</h1>
@@ -398,7 +399,7 @@
       </div>
     </section>
 
-    <section class="container mt-5 portfolio-celular" id="portfolio">
+    <section class="container portfolio-celular" id="portfolio">
       <h1 class="titulo">um pouco sobre nosso trabalho</h1>
       <div class="linha2"></div>
       <div class="nossotrabalho" data-anime="scroll">
@@ -823,7 +824,11 @@
               <h3 style="color: #a8a8a8;">Rio de janeiro</h3>
               <p>Av. Lins de Vasconcelos,
                 1222 e 1264</p>
-              <a href="https://goo.gl/maps/QxbBpJSzhF258FaF8" target="blank" class="vermapa">VER MAPA</a>
+              <!-- <a href="https://goo.gl/maps/QxbBpJSzhF258FaF8" target="blank" class="vermapa">VER MAPA</a> -->
+              <a class="social-media me-4" href="https://goo.gl/maps/QxbBpJSzhF258FaF8" target="_blank">
+                <img src="img/gps.png" />
+                <span>Ver mapa</span>
+              </a>
             </div>
           </div>
 
@@ -835,7 +840,11 @@
               <h3 style="color: #a8a8a8;">Rio de janeiro</h3>
               <p>Av. Lins de Vasconcelos,
                 1222 e 1264</p>
-              <a href="https://goo.gl/maps/QxbBpJSzhF258FaF8" target="blank" class="vermapa">VER MAPA</a>
+              <!-- <a href="https://goo.gl/maps/QxbBpJSzhF258FaF8" target="blank" class="vermapa">VER MAPA</a> -->
+              <a class="social-media me-4" href="https://goo.gl/maps/QxbBpJSzhF258FaF8" target="_blank">
+                <img src="img/gps.png" />
+                <span>Ver mapa</span>
+              </a>
             </div>
           </div>
         </div>

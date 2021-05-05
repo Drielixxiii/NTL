@@ -266,3 +266,10 @@ function debounce(func, wait, immediate) {
     if (immediate && !timeout) func.apply(context, args);
   };
 }
+
+document.onmousedown = disableclick;
+function disableclick(event) {
+  if (event.button == 2) {
+    return false;
+  }
+}

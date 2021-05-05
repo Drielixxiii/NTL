@@ -32,10 +32,6 @@ h1, h2 {
   color: #e1e1e6;
   font-family: "Cabin";
   font-size: 40px;
-  /* background: linear-gradient( 271.28deg, #e0f9b8 -1.29%, #47e9ea 53.12%, #0e92ff 117.3%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent; */
 }
 
 p {
@@ -66,6 +62,11 @@ section .oquefazemos {
 
 a:link {
   text-decoration: none;
+}
+
+.logo{
+  width: 200px;
+  height: 100px;
 }
 
 .evolua-img {
@@ -108,11 +109,6 @@ a:link {
 
 .branco {
   color: white;
-}
-
-.logoBranca {
-  width: 200px;
-  height: 90px;
 }
 
 .slogan {
@@ -364,6 +360,26 @@ a:link {
   background-color: #2f8385;
 }
 
+.imagemperguntas {
+  transform: rotate(-10deg);
+  background-color: transparent;
+  border-radius: 30px;
+  margin: 0 auto;
+  animation: showdecores 3s infinite ease-in-out;
+}
+
+@keyframes showdecores {
+  0% {
+    filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.5));
+  }
+  50% {
+    filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.25));
+  }
+  100% {
+    filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.5));
+  }
+}
+
 @media(max-width:1000px) {
   /* TELA DE CELULAR */
   h1, h2 {
@@ -408,7 +424,7 @@ a:link {
     margin: 0 5px;
   }
   .titulo {
-    margin-top: 3cm;
+    margin-top: 1cm;
   }
   .imagemservico {
     /* display: none; */
@@ -417,8 +433,11 @@ a:link {
     margin-left: 90px;
   }
   .imagemperguntas {
-    width: 400px;
-    height: 450px;
+    width: 180px;
+    height: 350px;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-bottom: 50px;
   }
 }
 
@@ -475,7 +494,7 @@ a:link {
   .botaologin:hover {
     background-color: #38a3a5 !important;
     transition: 0.5s ease-out;
-    color: #000 !important;
+    color: white !important;
   }
   .caixa a {
     line-height: 125px;
@@ -528,22 +547,26 @@ a:link {
   .portfolio-celular {
     display: none;
   }
+  .imagemperguntas {
+    width: 270px;
+    height: 600px;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+  }
 }
 
-.letra-colorida {
-  font-size: 100px;
-  /* background: linear-gradient( 271.28deg, #e0f9b8 -1.29%, #47e9ea 53.12%, #0e92ff 117.3%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent; */
+.teclado {
+  width: 100%;
+  height: 100%;
 }
 
 .glassmorphism {
   position: absolute;
   top: 0;
   left: 0;
-  height:90%;
-  width: 40%;
+  height: 100%;
+  width: 50%;
   z-index: 0;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
   border-right: 1px solid rgba(255, 255, 255, 0.05);
@@ -551,4 +574,18 @@ a:link {
   pointer-events: none;
   box-sizing: border-box;
   backdrop-filter: blur(5px);
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
+.letra-colorida {
+  font-size: 100px;
+  /* background: linear-gradient( 271.28deg, #b0e5e7 -1.29%, #1bb4fc 53.12%, #6902a5 90.3%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+.gradiente-de-botao {
+  background: linear-gradient(93.84deg, #28B9F5 5.64%, #21D9DC 23.04%, #4FDCFC 49.67%, rgba(31, 199, 169, 0.89) 96.36%, #1DDFE2 99.82%);
 }
