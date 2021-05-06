@@ -7,10 +7,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: rgb(39, 39, 38);
+  background: #272726;
 }
 
 body::-webkit-scrollbar-thumb {
+  border-radius: 50px;
   background: #38a3a5;
 }
 
@@ -64,7 +65,7 @@ a:link {
   text-decoration: none;
 }
 
-.logo{
+.logo {
   width: 200px;
   height: 100px;
 }
@@ -392,10 +393,10 @@ a:link {
   .slogan {
     font-size: 60px;
   }
-  .marcasimagens img {
+  /* .marcasimagens img {
     width: 45px;
     height: 45px;
-  }
+  } */
   .apoio {
     margin-bottom: 50px;
   }
