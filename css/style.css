@@ -435,9 +435,9 @@ a:link {
   }
   .imagemperguntas {
     width: 180px;
-    height: 350px;
+    height: 360px;
     margin-top: 40px;
-    margin-left: 150px;
+    /* margin-left: 150px; */
     margin-bottom: 50px;
   }
 }
