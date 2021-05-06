@@ -436,9 +436,11 @@ a:link {
   .imagemperguntas {
     width: 180px;
     height: 360px;
-    margin-top: 40px;
+    margin-top: 50px;
     /* margin-left: 150px; */
     margin-bottom: 50px;
+    position: relative;
+    left: 30%;
   }
 }
 
