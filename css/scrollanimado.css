@@ -109,7 +109,7 @@ body, ul, li {
   background: #38a3a5;
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
-  border-radius: 50px;
+  /* border-radius: 50px; */
 }
 
 .portfolio-lista::-webkit-scrollbar-track {

@@ -1,5 +1,6 @@
 body {
   background-image: linear-gradient(to right, black, #272726);
+  /* background: linear-gradient(150deg, #52E5E7 0%, #023ca7 50%, #6201b1 100%); */
 }
 
 body::-webkit-scrollbar {
@@ -11,7 +12,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  border-radius: 50px;
+  /* border-radius: 50px; */
   background: #38a3a5;
 }
 
@@ -380,6 +381,18 @@ a:link {
     filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.5));
   }
 }
+
+/* @keyframes showdecores {
+  0% {
+    filter: drop-shadow(50px -60px 100px #6201b1);
+  }
+  50% {
+    filter: drop-shadow(50px -60px 100px #a25bdb);
+  }
+  100% {
+    filter: drop-shadow(50px -60px 100px #6201b1);
+  }
+} */
 
 @media(max-width:1000px) {
   /* TELA DE CELULAR */
