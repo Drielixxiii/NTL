@@ -333,6 +333,10 @@ a:link {
   margin-top: 30px;
 }
 
+.destacar {
+  color: #afafaf !important;
+}
+
 .circle {
   background-color: #38a3a5;
   color: white;
