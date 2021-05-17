@@ -376,18 +376,18 @@ var i = setInterval(function () {
   clearInterval(i);
   document.getElementById("loading").style.display = "none";
   document.getElementById("conteudo").style.display = "inline";
-}, 0);
+}, 3000);
 //3000
 
 window.onload = function onLoad() {
   var circle = new ProgressBar.Circle("#progress", {
     color: "#38a3a5",
-    duration: 0,
+    duration: 3000,
     //3000
     easing: "easeInOut",
   });
 
-  circle.animate(0); //1 ou 2
+  circle.animate(2); //1 ou 2
 };
 
 $("#recipeCarousel").carousel({
